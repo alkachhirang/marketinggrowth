@@ -638,6 +638,45 @@ html {
    display: flex;
 }
 
+.red_circleline {
+   opacity: 0;
+   z-index: 6 !important;
+   top: -6%;
+   left: -41%;
+   max-width: 150px;
+   cursor: pointer;
+}
+
+.red_circleline:hover {
+   opacity: 1;
+}
+
+.red_circleline4 {
+   opacity: 0;
+   z-index: 6 !important;
+   top: -11%;
+   left: -5%;
+   max-width: 150px;
+   cursor: pointer;
+}
+
+.red_circleline4:hover {
+   opacity: 1;
+}
+
+.red_circleline3 {
+   opacity: 0;
+   z-index: 6 !important;
+   top: 15%;
+   left: -20%;
+   max-width: 150px;
+   cursor: pointer;
+}
+
+.red_circleline3:hover {
+   opacity: 1;
+}
+
 /*---------------------------learning-section------------------------*/
 .learning_card {
    border-radius: 25px;
@@ -848,7 +887,7 @@ html {
 
    }
 
-   .d_none{
+   .d_none {
       display: none;
    }
 

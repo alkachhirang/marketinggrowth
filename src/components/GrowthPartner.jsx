@@ -154,19 +154,24 @@ const GrowthPartner = () => {
                             </Col>
                             <Col lg={2} className="overflow-x-scroll Card_scroll">
                                 <div className="d-flex align-items-center justify-content-center gap-5 flex-lg-column">
-                                    <div>
+                                    <div className="position-relative p-2">
+                                        <img src={Redcircle} alt="Redcircle" className="position-absolute red_circleline" />
                                         <img src={HomeImg} alt="HomeImg" />
                                     </div>
-                                    <div>
+                                    <div className="position-relative p-2">
+                                        <img src={Redcircle} alt="Redcircle" className="position-absolute red_circleline" />
                                         <img src={AIA} alt="AIA" />
                                     </div>
-                                    <div>
+                                    <div className="position-relative p-2">
+                                        <img src={Redcircle} alt="Redcircle" className="position-absolute red_circleline3" />
                                         <img src={Lowes} alt="Lowes" />
                                     </div>
-                                    <div>
+                                    <div className="position-relative p-2">
+                                        <img src={Redcircle} alt="Redcircle" className="position-absolute red_circleline4" />
                                         <img src={Risinger} alt="Risinger" />
                                     </div>
-                                    <div>
+                            <div className="position-relative p-2">
+                                        <img src={Redcircle} alt="Redcircle" className="position-absolute red_circleline4" />
                                         <img src={Houzz} alt="Houzz" />
                                     </div>
                                 </div>
