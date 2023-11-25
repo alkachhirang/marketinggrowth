@@ -679,6 +679,9 @@ html {
 .mb_2{
    margin-bottom: -2% !important;
 }
+.mw_60{
+   max-width: 60px;
+}
 
 /*---------------------------learning-section------------------------*/
 .learning_card {

@@ -67,7 +67,7 @@ function App() {
             <ReadyGoals />
             <Footer />
             <div>
-                <img onClick={() => top()} src={BackToTop} alt='BackToTop' className={backToTop ? "back_to_top mw_50" : "d-none" } />
+                <img onClick={() => top()} src={BackToTop} alt='BackToTop' className={backToTop ? "back_to_top mw_50 mw_60" : "d-none" } />
             </div>
           </>
         </BrowserRouter>
