@@ -3,13 +3,14 @@ import { Container } from 'react-bootstrap';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import Blueshirtman from '../assets/images/png/blue-shirt-man.webp';
+import Blueshirtman from '../assets/images/png/blue-shirt-man (1).webp';
 import { Playbtn, Hpsvg, BtnSliderNext, BtnSliderpre } from './Iconimg';
 import Actualline from '../assets/images/png/actual-line.png';
+import Actualsliderimg2 from '../assets/images/png/actual-slider-img-2.webp';
 const Results = () => {
   const settings1 = {
-    className: "center",
     centerPadding: "60px",
+    centermode: true,
     dots: false,
     infinite: true,
     speed: 500,
@@ -28,17 +29,17 @@ const Results = () => {
   };
   return (
     <div className='actual_bg_img position-relative pb-5 pt-5 mt-lg-4 mb-5 position-relative'>
-      <img src={Actualline} alt="Actualline" className='position-absolute start-0 bottom-0 mb_2 w-100'/>
-      <Container className='pt-lg-4'>
+      <img src={Actualline} alt="Actualline" className='position-absolute start-0 bottom-0 mb_2 w-100' />
+      <Container fluid className='pt-lg-4 pe-0 ps-0'>
         <h3 className='mb-0 ff_maisonlight fw-light fs_30 text-white text-center' data-aos="fade-up"
           data-aos-anchor-placement="top-bottom">Actual businesses.</h3>
         <h2 className='mb-0 ff_sohne fw-bold fs_80 text-white text-center' data-aos="fade-up"
           data-aos-anchor-placement="top-bottom">Actual results.</h2>
         <p className='mb-0 ff_neue_regular fw-normal fs_15 text-white text-center pt-3 pt-lg-4 pb-5' data-aos="fade-up"
           data-aos-anchor-placement="top-bottom">Businesses trust Venveo to power grow.</p>
-        <Slider {...settings}>
+        <Slider ref={slider1} {...settings}>
           <div>
-            <Slider ref={slider1} {...settings1}>
+            <Slider {...settings1}>
               <div className='d-flex align-items-center justify-content-center flex-column'>
                 <div className='position-relative'>
                   <img src={Blueshirtman} alt="Blueshirtman" className='w-100' data-aos="fade-up"
@@ -50,8 +51,8 @@ const Results = () => {
                 </div>
               </div>
               <div className='d-flex align-items-center justify-content-center flex-column'>
-                <div className='position-relative'>
-                  <img src={Blueshirtman} alt="Blueshirtman" className='w-100' data-aos="fade-up"
+                <div className='position-relative '>
+                  <img src={Actualsliderimg2} alt="Blueshirtman" className='w-100' data-aos="fade-up"
                     data-aos-anchor-placement="top-bottom" />
                   <div className='position-absolute bottom-0 end-0 p-3' data-aos="fade-up"
                     data-aos-anchor-placement="top-bottom">
@@ -83,7 +84,7 @@ const Results = () => {
             </div>
           </div>
           <div>
-            <Slider ref={slider1} {...settings1}>
+            <Slider {...settings1}>
               <div className='d-flex align-items-center justify-content-center flex-column'>
                 <div className='position-relative'>
                   <img src={Blueshirtman} alt="Blueshirtman" className='w-100' data-aos="fade-up"
@@ -96,7 +97,7 @@ const Results = () => {
               </div>
               <div className='d-flex align-items-center justify-content-center flex-column'>
                 <div className='position-relative'>
-                  <img src={Blueshirtman} alt="Blueshirtman" className='w-100' data-aos="fade-up"
+                  <img src={Actualsliderimg2} alt="Blueshirtman" className='w-100' data-aos="fade-up"
                     data-aos-anchor-placement="top-bottom" />
                   <div className='position-absolute bottom-0 end-0 p-3' data-aos="fade-up"
                     data-aos-anchor-placement="top-bottom">
@@ -128,8 +129,8 @@ const Results = () => {
             </div>
           </div>
           <div>
-            <Slider ref={slider1} {...settings1}>
-              <div className='d-flex align-items-center justify-content-center flex-column'>
+            <Slider {...settings1}>
+              <div className='d-flex align-items-center justify-content-center flex-column '>
                 <div className='position-relative'>
                   <img src={Blueshirtman} alt="Blueshirtman" className='w-100' data-aos="fade-up"
                     data-aos-anchor-placement="top-bottom" />
@@ -141,7 +142,7 @@ const Results = () => {
               </div>
               <div className='d-flex align-items-center justify-content-center flex-column'>
                 <div className='position-relative'>
-                  <img src={Blueshirtman} alt="Blueshirtman" className='w-100' data-aos="fade-up"
+                  <img src={Actualsliderimg2} alt="Blueshirtman" className='w-100' data-aos="fade-up"
                     data-aos-anchor-placement="top-bottom" />
                   <div className='position-absolute bottom-0 end-0 p-3' data-aos="fade-up"
                     data-aos-anchor-placement="top-bottom">

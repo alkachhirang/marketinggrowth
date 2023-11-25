@@ -748,6 +748,14 @@ html {
    background-size: 100% 100%;
    object-fit: cover;
 }
+.slick-slide {
+   opacity: 0.5;
+   outline: none !important;
+}
+
+.slick-slide.slick-current {
+   opacity: 1;
+}
 
 .mw-640 {
    max-width: 640px;
