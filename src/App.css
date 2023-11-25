@@ -676,6 +676,9 @@ html {
 .red_circleline3:hover {
    opacity: 1;
 }
+.mb_2{
+   margin-bottom: -2% !important;
+}
 
 /*---------------------------learning-section------------------------*/
 .learning_card {

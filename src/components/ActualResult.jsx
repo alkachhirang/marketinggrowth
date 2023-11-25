@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import Blueshirtman from '../assets/images/png/blue-shirt-man.webp';
 import { Playbtn, Hpsvg, BtnSliderNext, BtnSliderpre } from './Iconimg';
+import Actualline from '../assets/images/png/actual-line.png';
 const Results = () => {
   const settings1 = {
     className: "center",
@@ -26,7 +27,8 @@ const Results = () => {
     arrows: false,
   };
   return (
-    <div className='actual_bg_img position-relative pb-5 pt-5 mt-lg-4'>
+    <div className='actual_bg_img position-relative pb-5 pt-5 mt-lg-4 mb-5 position-relative'>
+      <img src={Actualline} alt="Actualline" className='position-absolute start-0 bottom-0 mb_2 w-100'/>
       <Container className='pt-lg-4'>
         <h3 className='mb-0 ff_maisonlight fw-light fs_30 text-white text-center' data-aos="fade-up"
           data-aos-anchor-placement="top-bottom">Actual businesses.</h3>
